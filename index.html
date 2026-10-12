@@ -34,13 +34,14 @@ section { display: flex; flex-direction: column; gap: 8px; }
       <li>BrightSprout does not collect, sell or share personal information.</li>
       <li>There are no accounts, ads, analytics, tracking or in-app purchases.</li>
       <li>What your child does in the app stays on your device.</li>
+      <li>When online, the app downloads new stories and lessons. Those downloads carry nothing about your child.</li>
       <li>Microphone practice is optional, off by default, and never records.</li>
     </ul>
   </div>
 
   <section>
     <h2>What the app stores, and where</h2>
-    <p>When you set up the app, you enter a child's first name or nickname, age and avatar. As your child plays, the app saves their progress: lessons finished, stars, skill progress, time spent and settings. All of this is stored only on your device. The app does not send it to us or to anyone else, and it has no server of its own.</p>
+    <p>When you set up the app, you enter a child's first name or nickname, age and avatar. As your child plays, the app saves their progress: lessons finished, stars, skill progress, time spent and settings. All of this is stored only on your device. The app does not send it to us or to anyone else.</p>
     <p>To delete it, open Settings (behind the parent gate) and delete the child's profile, or choose "Erase everything", or delete the app.</p>
   </section>
 
@@ -56,7 +57,9 @@ section { display: flex; flex-direction: column; gap: 8px; }
 
   <section>
     <h2>Third-party services</h2>
-    <p>The app contains no third-party analytics, advertising or tracking code. Its voices and pictures are part of the app itself, so playing a lesson does not contact any outside service. Apple provides the operating system, the App Store and TestFlight; their handling of data is covered by Apple's own privacy policy.</p>
+    <p>The app contains no third-party analytics, advertising or tracking code.</p>
+    <p>New stories, lessons, pictures and narration are published by us and downloaded by the app from BrightSprout's content service, which is hosted by Supabase. The app only downloads: these requests carry no name, age, progress, account or device identifier, and nothing your child does is sent back. Like any web server, the service necessarily sees the network (IP) address a download comes from and keeps it briefly in standard server logs; we don't use it to identify or track anyone. Everything downloaded is stored on your device and works offline, and lessons that come with the app never need the internet.</p>
+    <p>Apple provides the operating system, the App Store and TestFlight; their handling of data is covered by Apple's own privacy policy.</p>
   </section>
 
   <section>
