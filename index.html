@@ -25,22 +25,24 @@ section { display: flex; flex-direction: column; gap: 8px; }
 <main>
   <header>
     <h1>BrightSprout Learning privacy policy</h1>
-    <p class="meta">Effective October 10, 2026 · Sharp Top Barbershop LLC</p>
+    <p class="meta">Effective October 17, 2026 · Sharp Top Barbershop LLC</p>
   </header>
 
   <div class="glance">
     <strong>In short</strong>
     <ul>
-      <li>BrightSprout does not collect, sell or share personal information.</li>
+      <li>BrightSprout does not collect, sell or share personal information about your child.</li>
       <li>There are no accounts, ads, analytics, tracking or in-app purchases.</li>
       <li>What your child does in the app stays on your device.</li>
+      <li>The app downloads new stories and lessons without sending anything about your child.</li>
+      <li>Grown-ups can choose to send us feedback; it is never required.</li>
       <li>Microphone practice is optional, off by default, and never records.</li>
     </ul>
   </div>
 
   <section>
     <h2>What the app stores, and where</h2>
-    <p>When you set up the app, you enter a child's first name or nickname, age and avatar. As your child plays, the app saves their progress: lessons finished, stars, skill progress, time spent and settings. All of this is stored only on your device. The app does not send it to us or to anyone else, and it has no server of its own.</p>
+    <p>When you set up the app, you enter a child's first name or nickname, age and avatar. As your child plays, the app saves their progress: lessons finished, stars, skill progress, time spent and settings. All of this is stored only on your device. The app does not send it to us or to anyone else.</p>
     <p>To delete it, open Settings (behind the parent gate) and delete the child's profile, or choose "Erase everything", or delete the app.</p>
   </section>
 
@@ -55,13 +57,25 @@ section { display: flex; flex-direction: column; gap: 8px; }
   </section>
 
   <section>
+    <h2>New stories and lessons</h2>
+    <p>When the device is online, the app checks for new or updated stories, lessons, words and building challenges, and downloads them. The request carries only the app's public key: no name, age, progress, account or device identifier. Like any download, it reveals the device's network address to our content service (Supabase), which keeps it in standard server logs. Downloaded content is stored on the device so it works offline.</p>
+
+    </section>
+
+  <section>
+    <h2>Parent feedback</h2>
+    <p>Behind the parent gate, a grown-up can send us feedback: a category, a message, an optional star rating, an optional game it is about, an optional email address for a reply, and an optional screenshot chosen from the photo library. The app adds its version, the platform (iPhone or iPad) and the iOS version. It never adds the child's name, age, progress or anything the child said or made.</p>
+    <p>Feedback is stored by our service provider, Supabase, is readable only by us, and is deleted after 12 months, or sooner if you ask by email. To limit spam, the service keeps a one-way, salted daily fingerprint of the network address for 24 hours; it never stores the address itself. The app asks for photo access only when you choose to attach a screenshot, and you can choose a single picture instead of granting access to all photos.</p>
+  </section>
+
+  <section>
     <h2>Third-party services</h2>
-    <p>The app contains no third-party analytics, advertising or tracking code. Its voices and pictures are part of the app itself, so playing a lesson does not contact any outside service. Apple provides the operating system, the App Store and TestFlight; their handling of data is covered by Apple's own privacy policy.</p>
+    <p>The app contains no third-party analytics, advertising or tracking code. Supabase hosts our content downloads and parent feedback as our service provider and uses the data only to provide that service. Playing a lesson does not contact any outside service; new content is downloaded in the background as described above. Apple provides the operating system, the App Store and TestFlight; their handling of data is covered by Apple's own privacy policy.</p>
   </section>
 
   <section>
     <h2>Children's privacy</h2>
-    <p>BrightSprout is made for children ages 3 to 8. We do not collect personal information from children. The app has no chat, no social features and no links out to the web for children.</p>
+    <p>BrightSprout is made for children ages 3 to 8. We do not collect personal information from children. Feedback can only be sent by a grown-up, behind the parent gate. The app has no chat, no social features and no links out to the web for children.</p>
   </section>
 
   <section>
